@@ -10,13 +10,7 @@ This is a report of the Homework 2 of Robotics Lab course using Docker and ROS2 
 Open the terminal, open the container and enter into the directory where you want to download the folder, then download it with:
 
       $ git clone https://github.com/NicoMonetti/Nicola_Monetti_homework2.git
-
--------------------------------
-
-By default, the launch file run the RVIZ2 and the ROS2 simulations to appreciate the kinematics of the robot with the position controller (with RVIZ2) and the dynamics of the robot with the torque controller (with Gazebo). If you want to launch only the RVIZ2 simulation to appreciate only the kinematics of the robot, open the iiwa.launch.py file and set the default value of the Gazebo simulation (line 80) with "false" value:
-
--	default_value='false',
-
+      
 --------------------------------
 
 To build the packages, enter into the ROS2 workspace and build them with:
