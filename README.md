@@ -31,6 +31,14 @@ Instead of the previous command, to use the torque controller launch the simulat
 
 --------------------------------
 
+To perform a zero-gravity simulation, change the values of gravity in the empty.world file in the ros2_iiwa/iiwa_description/gazebo/worlds/(line 16):
+
+  <gravity>0 0 0</gravity>
+
+Last thing, be sure to press the play button of the gazebo simulation in time, otherwise the controllers won't be loaded correctly.
+
+--------------------------------
+
 Open another terminal, connect to the same docker container and use the following commands in the ROS2 workspace to run the node:
 
       $ source install/setup.bash
