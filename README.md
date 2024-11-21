@@ -9,7 +9,7 @@ This is a report of the Homework 2 of Robotics Lab course using Docker and ROS2 
 
 Open the terminal, open the container and enter into the directory where you want to download the folder, then download it with:
 
-      $ git clone https://piedini_focosi_sudati.git
+      $ git clone https://github.com/NicoMonetti/Nicola_Monetti_homework2.git
 
 -------------------------------
 
