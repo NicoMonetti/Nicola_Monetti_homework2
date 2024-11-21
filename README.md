@@ -25,12 +25,7 @@ Run the simulations of the manipulator robot using the position controller with:
 
       $ ros2 launch iiwa_bringup iiwa.launch.py
 
-or move to the src/arm_description/launch directory and run the simulations:
-
-      $ cd src/ros2_iiwa/iiwa_bringup/launch
-      $ ros2 launch iiwa.launch.py
-      
-Instead of the previous commands, to use the torque controller launch the simulations with:
+Instead of the previous command, to use the torque controller launch the simulations with:
  
       $ ros2 launch iiwa_bringup iiwa.launch.py command_interface:="effort" robot_controller:="iiwa_arm_torque_controller"
 
